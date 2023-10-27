@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
     <!--commento-->
 	<title>ciao</title>
-	<meta name="mi chiamo" content="e il mio primo blog">
+	<meta name="description" content="e il mio primo blog">
 	<meta name="keyword"content="roma,formazione web design">
-
- <meta name="viewport" content="width=device-width,initial-scale=1"/>
+ 	<meta name="viewport" content="width=device-width,initial-scale=1"/>
 
 	<meta proprety="og:title" content="the rock">
     <meta proprety="og:type" content="video movie">	
     <meta proprety="og:image"content="http//ia.media.-imdb.com/images/rock.jpg"/>
+    
     <link rel="icon" type="image/png" href="img/icon.png">
-    <link real="styleshett" type="text/css"href="css/style.css">
-    <style type="text/css">
-       body {
-              background: red;
-       } </style>
-      <head>
-      	
 
-      </head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      	
+<link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/lightslider.js"></script>
+
+
+</head>
 <body>
       <div>
       	<h1>a</h1>
-      	<h2>b</h2>
-      	<h2>c</h2>
-      	<h3>d</h3>
-      	<h4>e</h4>
-        
-         
-        
+
+                
          <a href= chi-sono.html>
          <img src="img/infanzia.jpg" width="300px" alt="infanzia" title="infanzia"> <a href="http//google.com">infanzia	</a>
+           <img src="img/digimon.jpeg" width="300px" alt="infanzia" title="chi l ha visto"> <a href="http//google.com">chi l ha visto	</a>
+             <img src="img/rossana.jpg" width="300px" alt="infanzia" title="disagi a scuola"> <a href="http//google.com">disagi a scuola</a>
+
+               <img src="img/pokemon.png" width="300px" alt="infanzia" title="sfruttamento di animali"> <a href="http//google.com">sfruttamento di animali	</a>
+
+               <img src="img/sailoor moon.jpeg" width="300px" alt="infanzia" title=">ti fa diventare gay"> <a href="http//google.com">ti fa diventare gay</a>
+
+               <img src="img/miraculus.png" width="300px" alt="infanzia" title="i furry"> <a href="http//google.com">i furry	</a>
+
+               <img src="img/citta.jpeg" width="200px" alt="infanzia" title=">mai accettare cibo dagli sconosciuti"> <a href="http//google.com">mai accettare cibo dagli sconosciuti</a>
+
       	<p>i serpenti ofides(serpentes)  sono rettili che non hanno zampe ma si mupovono facilmentre strisciando <br>alcune specie hanno anche un veleno che potrebbe uccidere  </p>
       	<p>i serpenti oppure ofides sono rettili che non hanno zampe ma si muovono facilmente striciando <br> alcune specie hanno anche un veleno che potrebbr uccidere</p>
       	
@@ -44,15 +54,60 @@
 
       	<ul>
       		<li>
-      			<a herf="index.html">home 
+      			<a herf="index.html">home </a>
       	     </li>
-            <li><a href="chi-sono.html">chi sono</li>
+            <li><a href="chi-sono.html">chi sono</a></li>
       	    
       	    <li>C</li>
             <li>D</li>
         </ul>
+        <ul id="lightSlider">
+  <li>
+      <h3>First Slide</h3>
+      <p><img src="img/infanzia.jpg" width="300px" alt="infanzia" title="infanzia"> <a href="http//google.com">infanzia	</a></p>
+  </li>
+  <li>
+      <h3>Second Slide</h3>
+      <p><img src="img/digimon.jpeg" width="300px" alt="infanzia" title="chi l ha visto"> <a href="http//google.com">chi l ha visto	</a></p>
+  </li>  <li>
+      <h3>Second Slide</h3>
+      <p><img src="img/rossana.jpg" width="200px" alt="infanzia" title="disagi a scuola"> <a href="http//google.com">disagi a scuola
+        	</a></p>
+  </li>  <li>
+      <h3>Second Slide</h3>
+      <p><img src="img/pokemon.png" width="300px" alt="infanzia" title=">sfruttamento di animali"> <a href="http//google.com">sfruttamento di animali</a></p>
+  </li>  <li>
+      <h3>Second Slide</h3>
+      <p><img src="img/sailoor moon.jpeg" width="300px" alt="infanzia" title=">ti fa diventare gay"> <a href="http//google.com">ti fa diventare gay</a>
+</p>
+  </li>  <li>
+      <h3>Second Slide</h3>
+      <p><img src="img/miraculus.png" width="300px" alt="infanzia" title="i furry"> <a href="http//google.com">i furry	</a></p>
+               
+  </li>  <li>
+      <h3>Second Slide</h3>
+      <p></p>
+  </li>
+   <img src="img/citta.jpeg" width="300px" alt="infanzia" title=">mai accettare cibo dagli sconosciuti"> <a href="http//google.com">mai accettare cibo dagli sconosciuti</a>
+  </ul>
+
 
 
       </div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider({
+    	            item: 1,
+        autoWidth: false,
+        slideMove: 1, // slidemove will be 1 if loop is true
+        slideMargin: 10,
+     
+
+
+
+        
+    }); 
+  });
+</script>
 </body>
 </html>
